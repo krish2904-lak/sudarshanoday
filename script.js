@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         document.getElementById('product-name').textContent = productName;
 
         // Dynamically set the product image URL
-        document.getElementById('product-image').src = `/photo/${productName.replace(/\s+/g, '-').toLowerCase()}.jpg`;
+        document.getElementById('product-image').src = `photo/${productName.replace(/\s+/g, '-').toLowerCase()}.jpg`;
     }
 
     if (productPrice) {
